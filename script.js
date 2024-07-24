@@ -48,6 +48,8 @@ document.addEventListener('DOMContentLoaded', function () {
     for (let [chave, valor] of dados.entries())
       console.log(chave + " : " + valor);
 
+    document.getElementById('id-nome').value = "";
+    document.getElementById('id-altura').value = "";
+    document.getElementById('id-peso').value = "";
   });
-  inputNome = "";
 });
